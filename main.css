@@ -1,1 +1,165 @@
-/* write styles here */
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200vh;
+    background-color: #f3f2ef;
+}
+
+#nav_bar{
+    position: fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 52px;
+    background-color: #F0FFFF;
+    top:0px;
+    z-index: 100;
+}
+
+#icons{
+    position: relative;
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    left: 0px;
+}
+
+#icons:hover{
+    color: black;
+}
+
+#divider{
+    position: relative;
+    height: 52px;
+    width: 1px;
+    background-color: rgba(0,0,0,.2);
+}
+
+#calltoaction{
+    display: inline;
+    color: #915907;
+    font-size: 10px;
+    width: 50px;
+}
+
+#icon_search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 110px;
+}
+
+#icon{
+    width:35px;
+    margin:5px;
+}
+
+#icons{
+    display:flex;
+    font-size: 12px;
+    align-items: center;
+    color: rgba(0,0,0,.75);
+}
+
+input{
+    background-color: rgba(0,0,0,.2);
+    text-indent: 30px;
+    border-radius: .2em;
+    height: 30px;
+}
+
+::placeholder{
+    color:rgba(0,0,0,.5)
+}
+
+#mag{
+    position: relative;
+    left: 70px;
+    top: 2px;
+    color: black;
+}
+
+#content{
+    position: relative;
+    top:75px;
+    height: 100%;
+    width: 1000px;
+    background-color: rgba(0,0,0,.2);
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    border: .5px solid black;
+    border-radius: .5em;
+    overflow: hidden;
+}
+
+#banner{
+    position: absolute;
+    margin: 1px;
+    left: 0px;
+    height: 300px;
+    width: 100%;
+    border:.5px solid rgba(0,0,0,.5);
+    border-radius: .5em;
+    overflow: hidden;
+}
+
+#pic{
+    position:absolute;
+    left: 0px;
+    top:140px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border:1px solid black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#kiwi{
+    max-width: 160%;
+
+}
+
+#name{
+    position: absolute;
+    left:30px;
+    top: 430px;
+    font-size: 1.5em;
+}
+
+#occupation{
+    position: absolute;
+    left: 30px;
+    top: 465px;
+    font-size: 1em;
+}
+
+#location{
+    position: absolute;
+    left: 30px;
+    top:485px;
+    font-size: .8em;
+    color: rgba(0,0,0,.5);
+}
+
+#boxes{
+    position: absolute;
+    width: 95%;
+    height: 1000px;
+    border: 1px solid black;
+    border-radius: .5em;
+    top: 530px;
+}
